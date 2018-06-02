@@ -9,7 +9,7 @@ elif chosen ==2:
   computer= 'p'
 else:
   computer= 's'
-print(computer)
+print(" ",computer)
 if player==computer:
   print('draw!')
 elif player =='r' and computer =='s':
@@ -18,9 +18,5 @@ elif player =='s' and computer =='p':
   print('player wins!')
 elif player =='p' and computer =='r':
   print('player wins!')
-elif player =='s' and computer =='r':
-  print('computer wins!')
-elif player =='p' and computer =='s':
-  print('computer wins!')
-elif player =='r' and computer =='p':
-  print('computer wins!')
+else:
+  print('computer wins')
